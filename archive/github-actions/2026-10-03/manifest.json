@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "repository": "tanshuai/client-sdk-python",
+  "repository_id": 465540076,
+  "date": "2026-10-03",
+  "source_sha": "5f515085a4c200152dee6d321b95c019a71b5429",
+  "entries": [
+    {
+      "original_path": ".github/workflows/build.yml",
+      "archived_path": "archive/github-actions/2026-10-03/.github/workflows/build.yml",
+      "source_blob_sha": "7988f1e053c466d00ff9b4672178b5e93b7950b0",
+      "sha256": "c249bbaaccac34dec67590837cc3b9df7c7ec774d72fcf3020fc8c4de0160e99",
+      "workflow_id": null,
+      "workflow_state_before": null,
+      "business_consumer": "Inherited upstream-only automation from diem/client-sdk-python",
+      "retirement_reason": "No current custom development/deployment consumer identified; owner-approved archival of inherited fork automation; preserve source and passive security alerts",
+      "config_finding_ids": [
+        "CFG-006"
+      ],
+      "secret_names": [],
+      "external_entrypoint_types": [],
+      "local_dependency_paths": [],
+      "restore": "Restore archived YAML and the listed dependency snapshots in a reviewed PR; validate runtime/action versions, consumers and write destinations before explicitly re-enabling the original workflow ID."
+    },
+    {
+      "original_path": ".github/workflows/python-publish.yml",
+      "archived_path": "archive/github-actions/2026-10-03/.github/workflows/python-publish.yml",
+      "source_blob_sha": "bdaaeb9aea3ced4b36942d79e9397d453e8f8418",
+      "sha256": "535b518ac66b3c8ccc1073150b1b7003e1dfafc6f15ec433d75be7168ccee707",
+      "workflow_id": null,
+      "workflow_state_before": null,
+      "business_consumer": "Inherited upstream-only automation from diem/client-sdk-python",
+      "retirement_reason": "No current custom development/deployment consumer identified; owner-approved archival of inherited fork automation; preserve source and passive security alerts",
+      "config_finding_ids": [],
+      "secret_names": [
+        "PYPI_PUBLISH_API_TOKEN"
+      ],
+      "external_entrypoint_types": [],
+      "local_dependency_paths": [],
+      "restore": "Restore archived YAML and the listed dependency snapshots in a reviewed PR; validate runtime/action versions, consumers and write destinations before explicitly re-enabling the original workflow ID."
+    }
+  ],
+  "code_and_dependency_snapshots": [
+    {
+      "original_path": "Makefile",
+      "archived_path": "archive/github-actions/2026-10-03/Makefile",
+      "source_blob_sha": "e80dfac0ec144626866cde882df81a3b5e4e3c35",
+      "sha256": "31059108a03274b601b102b3e6ab2cb9de2b1bfb35332a2249661b4f5b93bc63",
+      "original_retained": true,
+      "reason": "workflow-local/direct code or dependency configuration copied for recovery; shared source left in place"
+    },
+    {
+      "original_path": "pyproject.toml",
+      "archived_path": "archive/github-actions/2026-10-03/pyproject.toml",
+      "source_blob_sha": "4a4d76bcab150b0d0ce709fb12d002ccb572e2f6",
+      "sha256": "6f090ac5a70dbbea4e09fb9210efe6d164c59467e0dd8dffd4fe512cec0b9ddb",
+      "original_retained": true,
+      "reason": "workflow-local/direct code or dependency configuration copied for recovery; shared source left in place"
+    },
+    {
+      "original_path": "requirements.txt",
+      "archived_path": "archive/github-actions/2026-10-03/requirements.txt",
+      "source_blob_sha": "84d1244ceb4bfdb4e5e66e5c1862b2e4c44c3056",
+      "sha256": "247f54f883b3fa7df8ddf91388a3a599f51c06289b2519017bb495ef53bb2bb0",
+      "original_retained": true,
+      "reason": "workflow-local/direct code or dependency configuration copied for recovery; shared source left in place"
+    },
+    {
+      "original_path": "setup.py",
+      "archived_path": "archive/github-actions/2026-10-03/setup.py",
+      "source_blob_sha": "25e4496102fb8ef5c1d67bb1ce0babdc6d464d14",
+      "sha256": "4f90f89a6cddc5e4ab0c4072d5e8e45c15874218123120bdf280e8d13e412d04",
+      "original_retained": true,
+      "reason": "workflow-local/direct code or dependency configuration copied for recovery; shared source left in place"
+    }
+  ],
+  "upstream_preflight": {
+    "parent": "diem/client-sdk-python",
+    "source_sha": "5f515085a4c200152dee6d321b95c019a71b5429",
+    "ahead_by": 0,
+    "behind_by": 1,
+    "status": "behind",
+    "retained_runs": 0,
+    "semantic_note": "Current entrypoints reviewed individually; only inherited upstream CI/tests/releases/doc generators, no custom fork commits or live production consumer identified. No repository Actions enabling or passive alert changes."
+  },
+  "caller_check": {
+    "current_all_accessible_workflows": 286,
+    "remaining_reusable_callers": [],
+    "external_dispatch_note": "Declared dispatch/manual entrypoints recorded; entire retired source preserved. No dispatch APIs were invoked."
+  },
+  "passive_security_alerts": "No alert setting changed. Archived version-update YAML is no longer active configuration.",
+  "rollback": "Reviewed source restoration plus explicit workflow enablement; for unsafe cross-repository publishers establish an updated producer/consumer contract and guarded destination before restoring."
+}
